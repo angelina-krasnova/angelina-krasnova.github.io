@@ -1,0 +1,230 @@
+@font-face{
+    font-family: Montserrat-medium;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Light.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cbcbfc;
+    font-family: montserrat;
+}
+
+
+h1, h2, h3, h4, a{
+    font-family: Montserrat-medium;
+}
+
+a:hover{
+    text-decoration: underline #cbcbfc;
+}
+  
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*MAIN*/
+section.main{
+    background-color: #cbcbfc;
+}
+
+/*HEADER*/
+div.header{
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.header div.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+div.logo h1{
+    font-size: 20pt;
+    color: white;
+} 
+
+div.header2 div.nav{
+    width: 100%;
+    text-align: right;
+    background-color: white;
+    line-height: 50px;
+    border-bottom: #cbcbfc solid 1rem;
+}
+
+div.header2 div.nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 2%;
+    border-left: #cbcbfc solid 2px;
+}
+
+div.header2 div.nav h3{
+    font-family: montserrat;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: black;
+    display: inline;
+}
+
+/* descrCat */
+
+div.descrCat{
+    display: flex;
+}
+div.descr{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 3%;
+    width: 45%;
+    text-align: left;
+    background-color: white;
+    height: 30%;
+}
+
+div.cat{
+    padding: 0%;
+    text-align: center;
+    object-fit: contain;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.cat img{
+   display: flex;
+   margin-top: 10%;
+   height: auto;
+   max-width: 400px;
+}
+
+/* videos */
+
+div.video {
+    padding: 3%;
+    background-color: white;
+    text-align: center;
+}
+
+div.video2 {
+    padding: 3%;
+    text-align: center;
+}
+
+
+div.goTest{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    height: 4rem;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.goTest h3{
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-family: montserrat;
+}
+
+/* TEST */
+.wrapper
+{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.Tmain
+{
+    background-color: white;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.quiz-frame
+{
+	border: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.quiz__head
+{
+	font-size: 20pt;
+	margin: 10px;
+	margin-bottom: 50px;
+}
+
+.head__content 
+{
+	padding: 5px;
+}
+
+.quiz__body
+{
+	margin: 10px;
+}
+
+.quiz__footer 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+	bottom: 0;
+	display: block;
+	width: 100%;
+}
+
+.footer__content 
+{
+	padding: 5px;
+}
+
+.button
+{
+	border: 0;
+	border-radius: 10px;
+	background: #ffb0ff;
+	color: #fff;
+	padding: 10px 25px;
+	width: 70%;
+	font-size: 15pt;
+	display: block;
+	margin: 5px auto;
+	cursor: pointer;
+}
+
+.button_wrong 
+{
+	background: #ffa0a0;
+}
+
+.button_correct
+{
+	background: #a7ffc4;
+}
+
+.button_passive
+{
+	background: #e6e6ff;
+}
+
+div.test{
+    text-align: center;
+}
